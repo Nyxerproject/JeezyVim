@@ -5,7 +5,7 @@
       markdown_oxide.enable = pkgs.lib.mkDefault true;
       clangd.enable = pkgs.lib.mkDefault true;
       bashls.enable = pkgs.lib.mkDefault true;
-      cmake.enable = pkgs.lib.mkDefualt true;
+      cmake.enable = pkgs.lib.mkDefault true;
       dockerls.enable = pkgs.lib.mkDefault true;
       gopls.enable = pkgs.lib.mkDefault true;
       jsonls.enable = pkgs.lib.mkDefault true;
