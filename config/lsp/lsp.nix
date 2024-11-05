@@ -8,6 +8,7 @@
       cmake.enable = pkgs.lib.mkDefault true;
       dockerls.enable = pkgs.lib.mkDefault true;
       gopls.enable = pkgs.lib.mkDefault true;
+      csharp_ls.enable = pkgs.lib.mkDefault true;
       jsonls.enable = pkgs.lib.mkDefault true;
       nil_ls.enable = pkgs.lib.mkDefault true;
       pyright.enable = pkgs.lib.mkDefault true;
