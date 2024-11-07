@@ -13,9 +13,9 @@
     ./cmp.nix
     ./git.nix
     ./oil.nix
-    #./colorscheme.nix
+    ./colorscheme.nix
     ./extra.nix
-    #./lualine.nix
+    ./lualine.nix
     ./options.nix
   ];
 }

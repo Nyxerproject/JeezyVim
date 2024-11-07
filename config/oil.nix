@@ -4,7 +4,7 @@
   ...
 }: {
   plugins.oil = {
-    enable = false;
+    enable = true;
     settings = {
       useDefaultKeymaps = true;
       deleteToTrash = true;
@@ -44,7 +44,7 @@
     {
       mode = "n";
       key = "\\";
-      action = ":Oil<CR>"; # or :Oil --float
+      action = ":Oil --float<CR>"; # or :Oil --float
       options = {
         desc = "Open parent directory";
         silent = true;
