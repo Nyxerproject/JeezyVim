@@ -9,10 +9,13 @@
     ./alpha.nix
     ./autocmds.nix
     ./bufferline.nix
+    ./dap.nix
     ./cmp.nix
-    ./colorscheme.nix
+    ./git.nix
+    ./oil.nix
+    #./colorscheme.nix
     ./extra.nix
-    ./lualine.nix
+    #./lualine.nix
     ./options.nix
   ];
 }
