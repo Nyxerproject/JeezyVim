@@ -27,6 +27,23 @@
         dap-python.enable = true;
         dap-virtual-text.enable = true;
       };
+
+      adapters.executables.gdb = {
+        command = "gdb";
+        args = ["-i" "dap"];
+      };
+
+      configurations = {
+        c = [
+          {
+            name = "C gdb launch";
+            type = "gdb";
+            request = "launch";
+            program = "build/main";
+          }
+        ];
+      };
+
       # keymaps = let
       #   bindingPrefix = "<Leader>d";
       #   mkDAPBinding = binding: settings:
