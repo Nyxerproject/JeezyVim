@@ -13,11 +13,8 @@
       nil_ls.enable = pkgs.lib.mkDefault true;
       pyright.enable = pkgs.lib.mkDefault true;
       lua_ls.enable = pkgs.lib.mkDefault true;
-      rust_analyzer = {
-        enable = pkgs.lib.mkDefault true;
-        installCargo = pkgs.lib.mkDefault false;
-        installRustc = pkgs.lib.mkDefault false;
-      };
+      typst_lsp.enable = pkgs.lib.mkDefault true;
+      cssls.enable = pkgs.lib.mkDefault true;
       html.enable = pkgs.lib.mkDefault true;
       yamlls.enable = pkgs.lib.mkDefault true;
       taplo.enable = pkgs.lib.mkDefault true;
