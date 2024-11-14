@@ -18,9 +18,9 @@
       callback = {
         __raw = ''
           function()
-            vim.cmd ":TSDisable highlight"
+            vim.cmd ":noh"
           end
-        '';
+        ''; # I dont want this to do anything
       };
     }
     {
