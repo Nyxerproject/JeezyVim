@@ -5,6 +5,7 @@
     [
       # runtime dependencies
       fd
+      gdb
       ripgrep
     ]
     ++ pkgs.lib.optionals pkgs.stdenv.isDarwin [
