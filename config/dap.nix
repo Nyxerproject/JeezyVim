@@ -1,9 +1,4 @@
 {
-  pkgs,
-  helpers,
-  lib,
-  ...
-}: {
   plugins = {
     dap = {
       enable = true;
@@ -34,6 +29,14 @@
       };
 
       configurations = {
+        cpp = [
+          {
+            name = "C gdb launch";
+            type = "gdb";
+            request = "launch";
+            program = "build/main";
+          }
+        ];
         c = [
           {
             name = "C gdb launch";
