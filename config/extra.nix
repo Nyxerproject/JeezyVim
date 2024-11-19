@@ -7,6 +7,7 @@
       fd
       gdb
       ripgrep
+      rustfmt
     ]
     ++ pkgs.lib.optionals pkgs.stdenv.isDarwin [
       # runtime dependencies
