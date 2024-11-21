@@ -8,6 +8,8 @@
       gdb
       ripgrep
       rustfmt
+      clippy
+      bacon
     ]
     ++ pkgs.lib.optionals pkgs.stdenv.isDarwin [
       # runtime dependencies
